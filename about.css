@@ -1,0 +1,340 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-img img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 5em;
+    margin-left: 1em;
+    border-radius: 50%;
+}
+
+.main-nav {
+    height: 95vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images-about/second-bg.jpeg);
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+nav ul {
+    font-size: 19px;
+
+}
+
+.nav-div {
+    height: 100px;
+    background-color: #FAF8F1;
+}
+
+nav li {
+    float: left;
+    margin-left: 2em;
+    list-style: none;
+    padding-top: 2em;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+nav li :nth-child(1) {
+    margin-left: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #FF577F;
+    transition: 0.4s ease-in-out;
+}
+
+.welcome-p {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4em;
+    text-align: center;
+    color: #FFF;
+}
+
+.about-p {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.about-message {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    background-image: url(./images-about/background-abt.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-msg img {
+    height: 90vh;
+    width: 700px;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.paragraph-div {
+    width: 600px;
+    display: flex;
+}
+
+#paragraph-id {
+    width: 500px;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about-sub {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#paragraph-id {
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 7px;
+    font-size: 17px;
+}
+
+.all-staff {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.members img {
+    width: 290px;
+    height: 300px;
+    margin-top: 2em;
+    border-radius: 20px;
+}
+
+.staff-heading {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    padding-top: 1em;
+}
+
+.members figcaption, p {
+    text-align: center;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.members p {
+    padding-bottom: 0.5em;
+}
+
+.community-div {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images-about/community-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.community-button {
+    padding: 0.5em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFABAB;
+    text-align: center;
+    border: 1px solid #FFABAB;
+    margin-top: 0.5em;
+}
+
+.community-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.mission-div {
+    width: 500px;
+}
+
+.mission-div h3 {
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mission-p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1em;
+}
+
+.our-community-div {
+    width: 500px;
+}
+
+.our-community-div h3 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0.5em;
+}
+
+#our-community-p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1em;
+}
+
+.our-community-div button {
+    margin-left: 6.5em;
+}
+
+.our-community-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.welcome-com {
+    margin-left: 200px;
+}
+
+.welcome-com p {
+    color: #fff;
+    font-size: 40px;
+}
+
+.welcome-com a {
+    text-decoration: none;
+    color: black;
+}
+
+.welcome-com button {
+    align-items: center;
+    margin-left: 120px;
+}
+
+.all-tst {
+    height: 75vh;
+    /* background-image: url(./images-about/tst-bg.jpeg);
+    background-color: #FFABAB; */
+}
+
+.all-tst h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+}
+
+.tst-div {
+    width: 300px;
+}
+
+.tst-div figcaption {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 550;
+    padding: 0.2em;
+}
+
+.tst-div p {
+    font-size: 17px;
+    padding-bottom: 0.3em;
+    font-family: Arial;
+}
+
+.tst-quote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 0.5em;
+}
+
+.testemonials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-evenly;
+}
+
+.testemonials img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+/*footer*/
+.contact-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.5);
+    height: 70vh;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.contact-footer h3 {
+    font-size: 20px;
+    padding-bottom: 1em;
+    color: azure;
+    padding-top: 2em;
+}
+
+.contact-details a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #323232;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: monospace;
+
+}
+
+.contact-details a:hover {
+    color: #FF577F;
+    transition: 0.4s ease-in-out;
+}
