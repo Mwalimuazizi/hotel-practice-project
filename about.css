@@ -175,7 +175,7 @@ nav a:hover {
     align-items: center;
 }
 
-.community-button {
+.community-button, .submit-btn {
     padding: 0.5em;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -257,8 +257,6 @@ nav a:hover {
 
 .all-tst {
     height: 75vh;
-    /* background-image: url(./images-about/tst-bg.jpeg);
-    background-color: #FFABAB; */
 }
 
 .all-tst h3 {
@@ -314,25 +312,158 @@ nav a:hover {
     justify-content: space-evenly;
     background-color: #333333;
     color: rgba(255, 255, 255, 0.5);
-    height: 70vh;
+    height: 80vh;
     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .contact-footer h3 {
     font-size: 20px;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     color: azure;
     padding-top: 2em;
+    text-align: center;
 }
 
-.contact-details a {
+.contact-details a, .quick-menu a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     color: rgba(255, 255, 255, 0.5);
     font-family: monospace;
+    padding-bottom: 3em;
 }
 
-.contact-details a:hover {
+.contact-details a:hover, .quick-menu a:hover {
     color: #FF577F;
     transition: 0.4s ease-in-out;
+}
+
+.contact-details ion-icon {
+    width: 25px;
+    height: 30px;
+    margin-left: 0.5em;
+    color: #FF577F;
+}
+
+.contact-details ion-icon:hover {
+    color: white;
+}
+
+.contact-link {
+    padding-bottom: 0.5em;
+}
+
+.offers-div h3 {
+    margin-left: -2em;
+}
+
+.offers-div li {
+    list-style: none;
+    padding-bottom: 1.5em;
+    font-size: 17px;
+}
+
+.quick-menu li {
+    list-style: none;
+    padding-bottom: 0.8em;
+    font-size: 17px;
+    margin-left: 0.5em;
+}
+
+.newsletter input {
+    display: block;
+    height: 32px;
+    margin-left: 80px;
+    border: 1px solid #Fff;
+    background-color: transparent;
+    color: #FAF8F1;
+    width: 250px;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-size: 17px;
+}
+
+.newsletter input:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #FF577F;
+    transition: 0.4s ease-in-out;
+}
+
+.email-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter label {
+    text-align: center;
+    margin-left: 80px;
+    font-size: 17px;
+}
+
+.newsletter ion-icon {
+    color: #FF577F;
+    width: 25px;
+    padding-top: 0.4em;
+    height: 30px;
+    padding-left: 0.2em;
+}
+
+.send-message textarea {
+    display: block;
+    margin-left: 80px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 1em;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.send-message label {
+    margin-left: 80px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 550;
+    padding-bottom: 2em;
+    background-color: transparent;
+}
+
+.send-message textarea:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #FF577F;
+    transition: 0.4s ease-in-out;
+}
+
+.submit-btn, .view-blog {
+    margin-left: 80px;
+    padding: 0.2em;
+    margin-top: 0.2em;
+    background-color: #FF577F;
+    border: 1px solid #FF577F;
+    border-radius: 10px;
+}
+
+.submit-btn:hover, .view-blog:hover {
+    color: black;
+    background-color: #FAF8F1;
+    transition: 0.3s ease-in-out;
+}
+.view-blog{
+    font-size: 17px;
+    margin-left:10px;
+}
+.social-media a{
+    text-decoration: none;
+    
+}
+.social-media ion-icon{
+    width:30px;
+    height: 20px;
+    color: #FF577F;
+    padding-bottom: 1em;
+}
+.copyright{
+    margin-top: 3em;
 }

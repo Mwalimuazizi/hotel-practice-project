@@ -163,53 +163,59 @@
                         </div> -->
                     </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d39.5945!3d-4.2745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAbdul~Azizi%20Hotel!5e0!3m2!1sen!2sus!4v1234567890123" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d39.5945!3d-4.2745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sAbdul~Azizi%20Hotel!5e0!3m2!1sen!2sus!4v1234567890123"
+                    width="800"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
                 <div class="contact-footer">
                     <div class="contact-details">
                         <div>
                             <h3>Contact Information</h3>
                         </div>
-                        <div>
+                        <div class="contact-link">
                             <a href="tel:+254793527596">
                                 <ion-icon name="call-outline"></ion-icon>
                                 Call us +254793527596
                             </a>
                         </div>
-                        <div>
+                        <div class="contact-link">
                             <a href="https://api.whatsapp.com/send?phone=793527596">
                                 <ion-icon name="logo-whatsapp"></ion-icon>
                                 Whatsapp Us
                             </a>
                         </div>
-                        <div>
+                        <div class="contact-link">
                             <a href="mailto:info@abdulazizihotel.com">
                                 <ion-icon name="mail-outline"></ion-icon>
                                 abdulazizihotel@gmail.com
                             </a>
                         </div>
-                        <div>
+                        <div class="contact-link">
                             <a href="#">
                                 <ion-icon name="location-outline"></ion-icon>
                                 Kwale County,Dian Beach
                             </a>
                         </div>
                     </div>
-                    <div>
+                    <div class="offers-div">
                         <div>
                             <h3>Special Offers</h3>
                         </div>
                         <ul>
                             <li>Free breakfast and Wi-Fi.</li>
                             <li>Ocean view rooms with balcony.</li>
-                            <li>Complimentary spa access for guests.</li>
+                            <li>Complimentary spa access</li>
                             <li>Kids stay and eat free.</li>
                             <li>On-site gym and fitness.</li>
                             <li>Happy hour drink specials.</li>
                         </ul>
                     </div>
-                    <div>
-                        <h3>Menu</h3>
+                    <div class="quick-menu">
+                        <h3>Quick Menu</h3>
                         <ul>
                             <li>
                                 <a href="#">Home</a>
@@ -238,29 +244,37 @@
                         </ul>
                     </div>
                     <div>
-                        <div>
+                        <div class="newsletter">
                             <h3>Subscribe To Newsletter</h3>
                             <label for="customer-email">
                                 Email:
-                                <input type="text">
+                                <div class="email-div">
+                                    <div>
+                                        <input type="email" placeholder="Enter Email:">
+                                    </div>
+                                    <div class="ion">
+                                        <a href="">
+                                            <ion-icon name="send-outline"></ion-icon>
+                                        </a>
+                                    </div>
+                                </div>
                             </label>
-                            <a href="#">
-                                <ion-icon name="send-outline"></ion-icon>
-                            </a>
                         </div>
-                        <div>
+                        <div class="send-message">
                             <label for="send-message">
                                 Send Us Message:
                                 <textarea
                                     name=""
                                     id=""
-                                    cols="30"
-                                    rows="10"
+                                    cols="25"
+                                    rows="5"
+                                    placeholder="Type Here"
                                 ></textarea>
                             </label>
+                            <button type="submit" class="submit-btn">Submit</button>
                         </div>
                     </div>
-                    <div>
+                    <div class="social-media">
                         <div>
                             <h3>Visit Our Social Media</h3>
                             <a href="#">
@@ -277,9 +291,10 @@
                             </a>
                         </div>
                         <div>
-                            <button type="button">View Our Blogs</button>
+                            <button type="button" class="view-blog">View Our Blogs</button>
                         </div>
                     </div>
+                    <p class="copyright">&copy; 2023 Abdul~Azizi Hotel. All rights reserved.</p>
                 </div>
             </main>
             <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
