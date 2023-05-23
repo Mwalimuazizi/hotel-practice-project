@@ -121,7 +121,7 @@ nav a:hover {
     font-size: 23px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
 
 .all-staff {
@@ -487,6 +487,17 @@ nav a:hover {
     height: 70vh;
 }
 
+.video-div a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.video-btn:hover {
+    background-color: #fff;
+    transition: 0.3s ease-in;
+}
+
 .video-btn {
     margin-left: 200px;
     padding: 1em;
@@ -495,18 +506,21 @@ nav a:hover {
     border: 1px solid #FF577F;
     border-radius: 15px;
 }
-#video-p{
+
+#video-p {
     padding-bottom: 1em;
     padding-top: 1em;
 }
-.small-gallery{
-    display:flex ;
+
+.small-gallery {
+    display: flex;
     flex-wrap: wrap;
-    gap:10px;
+    gap: 10px;
 
 }
-.small-gallery img{
-    width:200px;
+
+.small-gallery img {
+    width: 200px;
     height: 160px;
     padding-bottom: 2em;
     padding-top: 2em;
