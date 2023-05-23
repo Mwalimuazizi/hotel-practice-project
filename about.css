@@ -3,6 +3,7 @@
     box-sizing: 0;
     padding: 0;
     margin: 0;
+
 }
 
 .logo-img img {
@@ -16,7 +17,7 @@
 
 .main-nav {
     height: 95vh;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images-about/second-bg.jpeg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images-about/main-bg.jpg);
     ;
     background-size: cover;
     background-position: center;
@@ -82,16 +83,15 @@ nav a:hover {
 .about-message {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
-    background-image: url(./images-about/background-abt.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-msg img {
-    height: 90vh;
+    height: 80vh;
     width: 700px;
     margin-top: 1em;
     margin-left: 2em;
@@ -104,26 +104,24 @@ nav a:hover {
 
 #paragraph-id {
     width: 500px;
-    align-items: center;
     margin-left: 1em;
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-heading {
     text-align: center;
-    font-size: 35px;
+    font-size: 38px;
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 .about-sub {
     font-size: 23px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-}
-
-#paragraph-id {
-    font-family: 'Ubuntu', sans-serif;
-    padding-top: 7px;
-    font-size: 17px;
+    
 }
 
 .all-staff {
@@ -472,11 +470,44 @@ nav a:hover {
     padding-bottom: 1em;
 }
 
-.social-media ion-icon:hover {
+.social-media ion-icon:hover, .ion ion-icon:hover {
     color: #fff;
     transition: 0.3s ease-in;
 }
 
 .copyright {
     margin-top: 3em;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 70vh;
+}
+
+.video-btn {
+    margin-left: 200px;
+    padding: 1em;
+    margin-top: 0.2em;
+    background-color: #FF577F;
+    border: 1px solid #FF577F;
+    border-radius: 15px;
+}
+#video-p{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.small-gallery{
+    display:flex ;
+    flex-wrap: wrap;
+    gap:10px;
+
+}
+.small-gallery img{
+    width:200px;
+    height: 160px;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
