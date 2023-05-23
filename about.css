@@ -153,6 +153,8 @@ nav a:hover {
     font-size: 35px;
     font-family: Arial;
     padding-top: 1em;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .members figcaption, p {
@@ -265,6 +267,8 @@ nav a:hover {
     font-family: 'Ubuntu', sans-serif;
     padding-top: 0.5em;
     padding-bottom: 0.1em;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .tst-div {
@@ -450,20 +454,29 @@ nav a:hover {
     background-color: #FAF8F1;
     transition: 0.3s ease-in-out;
 }
-.view-blog{
+
+.view-blog {
     font-size: 17px;
-    margin-left:10px;
+    margin-left: 10px;
 }
-.social-media a{
+
+.social-media a {
     text-decoration: none;
-    
+
 }
-.social-media ion-icon{
-    width:30px;
+
+.social-media ion-icon {
+    width: 30px;
     height: 20px;
     color: #FF577F;
     padding-bottom: 1em;
 }
-.copyright{
+
+.social-media ion-icon:hover {
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.copyright {
     margin-top: 3em;
 }
