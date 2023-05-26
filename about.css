@@ -166,23 +166,30 @@ nav a:hover {
 }
 
 .community-div {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./images-about/community-img.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 80vh;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
-
+.community-div img{
+    height:500px;
+    width:700px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
 .community-button, .submit-btn {
     padding: 0.5em;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFABAB;
+    background-color: #FF577F;
     text-align: center;
-    border: 1px solid #FFABAB;
+    border: 1px solid #FF577F;
     margin-top: 0.5em;
+    border-radius: 10px;
 }
 
 .community-button:hover {
@@ -200,12 +207,12 @@ nav a:hover {
     font-size: 35px;
     text-align: center;
     padding-bottom: 0.5em;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 #mission-p {
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 1em;
 }
 
@@ -214,16 +221,16 @@ nav a:hover {
 }
 
 .our-community-div h3 {
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
     padding-top: 1em;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
     padding-bottom: 0.5em;
 }
 
 #our-community-p {
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 1em;
 }
 
@@ -262,7 +269,6 @@ nav a:hover {
 .all-tst h3 {
     text-align: center;
     font-size: 35px;
-    font-family: 'Ubuntu', sans-serif;
     padding-top: 0.5em;
     padding-bottom: 0.1em;
     font-family: 'Pangolin', cursive;
