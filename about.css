@@ -175,12 +175,14 @@ nav a:hover {
     padding-bottom: 2em;
     padding-top: 2em;
 }
-.community-div img{
-    height:500px;
-    width:700px;
+
+.community-div img {
+    height: 500px;
+    width: 700px;
     padding-bottom: 2em;
     padding-top: 2em;
 }
+
 .community-button, .submit-btn {
     padding: 0.5em;
     font-size: 20px;
