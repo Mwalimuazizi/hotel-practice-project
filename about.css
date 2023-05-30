@@ -70,6 +70,22 @@ nav a:hover {
     margin-top: 4em;
     text-align: center;
     color: #FFF;
+    animation-name: welcome;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes welcome {
+    0% {
+        top: -500px
+    }
+
+    100% {
+        top: 0
+    }
 }
 
 .about-p {
@@ -78,6 +94,21 @@ nav a:hover {
     text-align: center;
     color: white;
     padding-top: 10px;
+    animation-name: about-paragraph;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes about-paragraph {
+    0% {
+        left: -1000px
+    }
+
+    100% {
+        left: 0
+    }
 }
 
 .about-message {
@@ -88,6 +119,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #FAF8F1;
 }
 
 .about-msg img {
@@ -129,6 +161,7 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
+    background-color: #FAF8F1;
 }
 
 .members {
@@ -137,6 +170,7 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-evenly;
+    
 }
 
 .members img {
@@ -144,6 +178,11 @@ nav a:hover {
     height: 300px;
     margin-top: 2em;
     border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.members img:hover{
+    border-radius: 50%;
 }
 
 .staff-heading {
@@ -174,6 +213,7 @@ nav a:hover {
     justify-content: space-between;
     padding-bottom: 2em;
     padding-top: 2em;
+    background-color: #FAF8F1;
 }
 
 .community-div img {
@@ -266,6 +306,7 @@ nav a:hover {
 
 .all-tst {
     height: 75vh;
+    background-color: #FAF8F1;
 }
 
 .all-tst h3 {
@@ -493,6 +534,7 @@ nav a:hover {
     flex-wrap: wrap;
     gap: 10px;
     height: 70vh;
+    background-color: #FAF8F1;
 }
 
 .video-div a {
