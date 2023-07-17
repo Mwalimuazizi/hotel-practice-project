@@ -199,19 +199,58 @@ body {
    margin-left: 1em;
    padding: 0.5em;
 }
+
 /**DEALING WITH THE CHECK IN SECTION
 */
-.check-div{
+.all-checks {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   gap: 2em;
-   height: 150px;
-   align-items: center;
+   text-align: center;
    background-color: #FAF8F1;
-   width: 900px;
-   margin-left: 200px;
-   /* margin-top: -4em; */
-   z-index: 1;
-   
+}
+
+.check-div {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+   height: 130px;
+   align-items: center;
+   background-color: #F5E8E4;
+   width: 800px;
+   margin-left: 140px;
+   margin-top: -4em;
+   position: relative;
+}
+
+.check-class p {
+   font-family: monospace;
+   font-size: 23px;
+   padding-bottom: 0.2em;
+}
+
+.check-class ion-icon {
+   color: #FF577F;
+   width: 30px;
+   height: 20px;
+   color: #FF577F;
+}
+
+.check-class input, select {
+   height: 27px;
+   border-radius: 5px;
+   border: 1px solid #FFABAB;
+   font-size: 17px;
+   font-family: monospace;
+   text-align: center;
+}
+
+.check-class-div{
+   background-color: #fff;
+   margin-top: -4em;
+   position: relative;
+}
+.check-class-div ,.check-p {
+   padding-top:2.5em;
 }
