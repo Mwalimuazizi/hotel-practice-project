@@ -207,7 +207,8 @@ body {
    flex-direction: row;
    justify-content: center;
    text-align: center;
-   background-color: #FAF8F1;
+   background: #FAF8F1;
+   margin-top:-2em;
 }
 
 .check-div {
@@ -219,7 +220,7 @@ body {
    align-items: center;
    background-color: #F5E8E4;
    width: 800px;
-   margin-left: 140px;
+   margin-left: 250px;
    margin-top: -4em;
    position: relative;
 }
@@ -247,10 +248,20 @@ body {
 }
 
 .check-class-div{
-   background-color: #fff;
+   background-color: #FFABAB;
    margin-top: -4em;
    position: relative;
 }
 .check-class-div ,.check-p {
-   padding-top:2.5em;
+   padding-top:1.2em;
+   padding-left: 1em;
+   padding-right: 1em; 
+}
+.check-class-div:hover{
+   background-color: #FFF;
+   border:2px solid #FFABAB;
+}
+/* HANDLING SERVICES $ FACILITIES */
+.services-div{
+   height:100vh;
 }
