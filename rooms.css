@@ -361,3 +361,8 @@ body {
 .service-icons-div{
    width:300px;
 }
+
+/* HANDLING THE ROOMS CHOICE */
+.rooms-choice{
+   height:110vh;
+}
