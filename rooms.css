@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-weight: 300;
 }
 
 .menu-bar {
@@ -208,7 +211,7 @@ body {
    justify-content: center;
    text-align: center;
    background: #FAF8F1;
-   margin-top:-2em;
+   margin-top: -2em;
 }
 
 .check-div {
@@ -247,21 +250,90 @@ body {
    text-align: center;
 }
 
-.check-class-div{
+.check-class-div {
    background-color: #FFABAB;
    margin-top: -4em;
    position: relative;
 }
-.check-class-div ,.check-p {
-   padding-top:1.2em;
+
+.check-class-div, .check-p {
+   padding-top: 1.2em;
    padding-left: 1em;
-   padding-right: 1em; 
+   padding-right: 1em;
 }
-.check-class-div:hover{
+
+.check-class-div:hover {
    background-color: #FFF;
-   border:2px solid #FFABAB;
+   border: 2px solid #FFABAB;
 }
+
 /* HANDLING SERVICES $ FACILITIES */
-.services-div{
-   height:100vh;
+
+.services-div {
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.service-head {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.service-p {
+   font-size: 22px;
+
+   font-family: monospace;
+   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   margin-top: 3em;
+   color: #A8A196;
+   margin-bottom: 2em;
+   margin-left: 4em;
+}
+
+#hr-div {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 1em;
+}
+
+.service-hr {
+   width: 130px;
+   margin-top: 1.5em;
+   margin-left: 1.5em;
+   border: 1.5px solid #A8A196;
+}
+
+#facilities-p {
+   font-size: 50px;
+   margin-left: 2em;
+   font-family: 'Quicksand', sans-serif;
+   color: black;
+   margin-bottom: 1em;
+}
+
+.all-service-icons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 2em;
+}
+
+.all-service-icons div {
+   width: 400px;
+
+}
+
+.all-service-icons img {
+   width: 80px;
+   border: #FF577F;
+}
+
+.service-icons ion-icon, i {
+   color: #FF577F;
+   width: 100px;
+   height: 100px;
 }
