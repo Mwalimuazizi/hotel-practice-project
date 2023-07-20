@@ -270,7 +270,7 @@ body {
 /* HANDLING SERVICES $ FACILITIES */
 
 .services-div {
-   height: 100vh;
+   height: 110vh;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -284,7 +284,6 @@ body {
 
 .service-p {
    font-size: 22px;
-
    font-family: monospace;
    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
    margin-top: 3em;
@@ -319,7 +318,8 @@ body {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   margin-left: 2em;
+   margin-left: 4em;
+   justify-content: center;
 }
 
 .all-service-icons div {
@@ -332,8 +332,32 @@ body {
    border: #FF577F;
 }
 
-.service-icons ion-icon, i {
-   color: #FF577F;
-   width: 100px;
-   height: 100px;
+.service-icons ion-icon {
+   color:#F55050;
+   width: 50px;
+   height: 50px;
+   margin-right: -2em;
+  
+}
+
+
+#services-paragraph-ion, #services-paragraph{
+   font-weight: 300;
+   font-size: 24px;
+   margin-top: -2.5em;
+   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   margin-left: -4.5em;
+}
+#services-paragraph{
+   margin-left: -2em;
+}
+.service-icons p{
+   margin-left: 3em;  
+   font-weight: 300;
+   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-size: 18px;
+   color: #000;
+}
+.service-icons-div{
+   width:300px;
 }
