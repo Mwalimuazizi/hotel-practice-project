@@ -205,8 +205,8 @@
                             <ion-icon name="bed-outline"></ion-icon>
                         </div>
                         <div>
-                            <p id="services-paragraph-ion">Luxury Rooms</p>
-                            <p id="service-msg">Indulge in opulent chambers, where luxury reigns, captivating guests with lavishness, elegance, and refined sophistication</p>
+                            <p class="services-paragraph-ion">Luxury Rooms</p>
+                            <p class="service-msg">Indulge in opulent chambers, where luxury reigns, captivating guests with lavishness, elegance, and refined sophistication</p>
                         </div>
                     </div>
                     <div class="service-icons">
@@ -214,8 +214,8 @@
                             <ion-icon name="wifi-outline"></ion-icon>
                         </div>
                         <div>
-                            <p id="services-paragraph-ion">Fast & Free Wifi</p>
-                            <p id="service-msg">Stay connected with our hotel's reliable, high-speed Wi-Fi, ensuring seamless internet access for your convenience.</p>
+                            <p class="services-paragraph-ion">Fast & Free Wifi</p>
+                            <p class="service-msg">Stay connected with our hotel's reliable, high-speed Wi-Fi, ensuring seamless internet access for your convenience.</p>
                         </div>
                     </div>
                     <div class="service-icons">
@@ -223,8 +223,8 @@
                             <ion-icon name="call-outline"></ion-icon>
                         </div>
                         <div>
-                            <p id="services-paragraph-ion">Call Us 24/7</p>
-                            <p id="service-msg">Our hotel offers round-the-clock customer service, providing assistance and support whenever you need it, day or night.</p>
+                            <p class="services-paragraph-ion">Call Us 24/7</p>
+                            <p class="service-msg">Our hotel offers round-the-clock customer service, providing assistance and support whenever you need it, day or night.</p>
                         </div>
                     </div>
                     <div class="service-icons">
@@ -232,8 +232,8 @@
                             <ion-icon name="car-outline"></ion-icon>
                         </div>
                         <div>
-                            <p id="services-paragraph">Travel Accomodation</p>
-                            <p id="service-msg">Discover impeccable travel accommodation, where comfort and convenience meet to enhance your journey's enchanting experience.</p>
+                            <p class="services-paragraph">Travel Accomodation</p>
+                            <p class="service-msg">Discover impeccable travel accommodation, where comfort and convenience meet to enhance your journey's enchanting experience.</p>
                         </div>
                     </div>
                     <div class="service-icons">
@@ -241,17 +241,17 @@
                             <ion-icon name="card-outline"></ion-icon>
                         </div>
                         <div>
-                            <p id="services-paragraph">Accepts Credit Card</p>
-                            <p id="service-msg">Conveniently accept credit cards at our establishment, ensuring seamless payment options for a hassle-free experience.</p>
+                            <p class="services-paragraph">Accepts Credit Card</p>
+                            <p class="service-msg">Conveniently accept credit cards at our establishment, ensuring seamless payment options for a hassle-free experience.</p>
                         </div>
                     </div>
                     <div class="service-icons">
                         <div>
                             <ion-icon name="fast-food-outline"></ion-icon>
                         </div>
-                        <div>
-                            <p id="services-paragraph-ion">Restaurant</p>
-                            <p id="service-msg">Savor exceptional cuisine at our restaurant, where culinary delights await to satisfy your discerning palate.</p>
+                        <div class="services-paragraph-ion">
+                            <p>Restaurant</p>
+                            <p class="service-msg">Savor exceptional cuisine at our restaurant, where culinary delights await to satisfy your discerning palate.</p>
                         </div>
                     </div>
                 </div>
@@ -334,8 +334,12 @@
                                 <p>CLASSIC ROOM</p>
                                 <p class="rooms-paragraph">Discover timeless charm and comfort in our classic rooms, designed to evoke a sense of nostalgia and relaxation.</p>
                                 <div class="button-div">
-                                    <p>$600/Night</p>
-                                    <button>Book Now</button>
+                                    <div>
+                                        <p>$600/Night</p>
+                                    </div>
+                                    <div>
+                                        <button>Book Now</button>
+                                    </div>
                                 </div>
                             </div>
                             <div>
@@ -347,8 +351,12 @@
                                 <p>SUPERIOR ROOM</p>
                                 <p class="rooms-paragraph">Embrace superior comfort in our rooms, offering a delightful blend of luxury and relaxation for a memorable stay.</p>
                                 <div class="button-div">
-                                    <p>$500/Night</p>
-                                    <button>Book Now</button>
+                                    <div>
+                                        <p>$500/Night</p>
+                                    </div>
+                                    <div>
+                                        <button>Book Now</button>
+                                    </div>
                                 </div>
                             </div>
                             <div>
@@ -360,13 +368,67 @@
                                 <p>LUXURY ROOM</p>
                                 <p class="rooms-paragraph">Indulge in opulent luxury, where every detail is crafted to provide an exquisite and unforgettable stay experience</p>
                                 <div class="button-div">
-                                    <p>$450/Night</p>
-                                    <button>Book Now</button>
+                                    <div>
+                                        <p>$450/Night</p>
+                                    </div>
+                                    <div>
+                                        <button>Book Now</button>
+                                    </div>
                                 </div>
                             </div>
                             <div>
                                 <img src="./suite-room/luxury.webp" alt="">
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- HANDLING GUEST REVIEWS -->
+            <div class="guest-reviews">
+                <div class="service-head">
+                    <div id="hr-div">
+                        <div>
+                            <p class="service-p">REVIEWS</p>
+                        </div>
+                        <div>
+                            <hr class="service-hr">
+                        </div>
+                    </div>
+                    <div>
+                        <p id="facilities-p">Guest Reviews</p>
+                    </div>
+                </div>
+                <div class="reviews-div">
+                    <div class>
+                        <div class="reviews-img">
+                            <div class="img-p-guest">
+                                <img src="./guest-reviews/review-1.webp" alt="reviewer1">
+                                <p class="reviews-img-p">Jack Thomas</p>
+                            </div>
+                            <p class="Satisfied">Satisfied Customer</p>
+                        </div>
+                        <div>
+                            <p class="reveiws-message">" My experience staying in the rooms offered by this website was simply fantastic. The rooms were beautifully designed and exuded a sense of warmth and coziness. From the moment I entered, I felt like I was stepping into a home away from home."</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews-img">
+                            <img src="./guest-reviews/review-2.webp" alt="review2">
+                            <p class="reviews-img-p">Emmah Rose</p>
+                            <p class="Satisfied">Satisfied Customer</p>
+                        </div>
+                        <div>
+                            <p class="reveiws-message">"Staying at the rooms provided by this website was a luxurious experience like no other. The rooms were beautifully appointed with elegant furnishings and modern amenities, making my stay truly unforgettable. The location was perfect</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews-img">
+                            <img src="./guest-reviews/review-3.webp" alt="review3">
+                            <p class="reviews-img-p">Olivia Grace</p>
+                            <p class="Satisfied">Satisfied Customer</p>
+                        </div>
+                        <div>
+                            <p class="reveiws-message">"My stay at this website's rooms exceeded all expectations. The rooms were situated in a picturesque location, offering breathtaking views of the surrounding landscapes. I could not have asked for a more serene and tranquil setting to unwind and relax."</p>
                         </div>
                     </div>
                 </div>
