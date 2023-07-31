@@ -135,46 +135,86 @@ nav a:hover {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     font-size: 30px;
-    padding:1em;
+    padding: 1em;
 }
-.contact-details-div textarea{
-    margin-left:2em;
+
+.contact-details-div textarea {
+    margin-left: 2em;
     font-family: 'Barlow', sans-serif;
     font-size: 15px;
     padding-left: 0.5em;
     border: 1px solid #E1D7C6;
     transition: border-color 0.3s ease;
 }
-.contact-details-div textarea:focus{
+
+.contact-details-div textarea:focus {
     outline: none;
 }
-.contact-details-div input{
-    width:350px;
+
+.contact-details-div input {
+    width: 350px;
     height: 40px;
     font-size: 14px;
     margin-left: 2em;
-    font-family:'Barlow', sans-serif ;
+    font-family: 'Barlow', sans-serif;
     padding-left: 0.5em;
     margin-top: 2.5em;
     transition: border-color 0.3s ease;
     border: 1px solid #E1D7C6;
 }
-.contact-details-div input:focus{
+
+.contact-details-div input:focus {
     outline: none;
 }
-.contact-details-div button{
+
+.contact-details-div button {
     display: block;
-    margin-top:2em;
+    margin-top: 2em;
     margin-left: 1.5em;
-    padding :1em 3em;
+    padding: 1em 3em;
     text-align: center;
     font-size: 17px;
-    color:#FF577F;
+    color: #FF577F;
     border: 1px solid #FF6363;
     background-color: #FFF;
     margin-bottom: 2em;
 }
+.contact-details-div button:hover{
+    background-color: #FF6363;
+    color: #Fff;
+    transition: 0.4s ease-in-out;
+}
 
+/* DEALING WITH THE A SIDE BAR */
+
+.detailed-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top:5em;
+}
+.detailed-icons{
+    margin-bottom: 2em;
+}
+.contact-icon-div ion-icon {
+    color: #FF6363;
+    height: 40px;
+    width: 30px;
+}
+.contact-icon-div{
+    display: flex;
+}
+.contact-icon-div p{
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Barlow:wght@100&family=Maven+Pro&display=swap');
+.second-detail-p{
+    margin-left:2.5em;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #7D7463;
+}
 
 /* FOOTER */
 .contact-footer {
@@ -338,7 +378,7 @@ nav a:hover {
     height: 20px;
     color: #FF577F;
     padding-bottom: 1em;
-    
+
 }
 
 .social-media ion-icon:hover, .ion ion-icon:hover {
@@ -349,4 +389,3 @@ nav a:hover {
 .copyright {
     margin-top: 3em;
 }
-
